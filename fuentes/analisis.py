@@ -13,8 +13,8 @@ def ejecutarAnalisis():
         cmd = row[1]
         result = row[2]
         print("Resultado: " + result)
-        print("[*] Ejecutando: ", name)
-        print(cmd)
+        print("[*] Ejecutando: ", name, " esperando: ", result)
+        #print(cmd)
         #stream = os.popen(cmd)
         #output = "".join(stream.read().split())
         #print(output)

@@ -1,6 +1,11 @@
 # Modulo de trabajo con Base de Datos
 import sqlite3
 
+# Ejemplos
+#conn.execute("INSERT INTO Tasks (name,cmd,result,description) VALUES ('Check root user', 'cat /etc/passwd | grep :0: | wc -l', '0', 'Find number of users with id 0' )");
+#conn.commit()
+#print ("Records inserted successfully")
+
 # Apertura DB
 def opendb():
 
