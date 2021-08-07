@@ -6,7 +6,7 @@ import getopt
 # Archivos propios
 import db as db
 import analisis as a
-    
+
 # Mensaje de uso
 def uso():
     msg = '''
