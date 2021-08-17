@@ -9,7 +9,6 @@ import getopt
 # Archivos propios
 import db as db
 import analisis as a
-import reporte as r
 
 # Mensaje de uso
 def uso():
@@ -39,7 +38,8 @@ def main():
         elif param == "e":
             a.ejecutarAnalisis()
         elif param == "r":
-            r.ejecutarReporte()
+            print("Reportes")
+            #accesoReportes()
         else:
             print ("Parametro Incorrecto")
             sys.exit(2)

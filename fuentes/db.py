@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 # Modulo de trabajo con Base de Datos
 import sqlite3
 
