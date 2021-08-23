@@ -1,0 +1,27 @@
+Reporte,Control,Resultado Esperado,Resultado Obtenido,Status
+511862,Chequear usuario root,b'1',b'1',OK
+511862,Chequear permisos acceso root local,b'2',b'2',OK
+511862,Chequear permisos acceso root remoto,b'1',b'Not found',ERR
+511862,Cuentas con ID menor a 500  no deben realizar login interactivo,b'0',b'0',OK
+511862,Cuentas del sistema no deben poder realizar login interactivo,b'0',b'0',OK
+511862,Cuentas NO deben tener UID duplicados,b'0',b'0',OK
+511862,Verificar grupos del sistema (/etc/group),b'0',b'0',OK
+511862,Bloquear  cuentas luego de determinados intentos,b'0',b'Not found',ERR
+511862,Verificar existencia de archivo .forward,b'1',b'1',OK
+511862,Verificar encriptacion de passwords,b'0',b'0',OK
+511862,Verificar presencia del comando xhost,b'0',b'find/home/alejandro/-maxdepth1-mindepth1-typef-execgrep-qixhost+{};',ERR
+511862,Verificar presencia de ! en archivo .exrc,b'123',b'123',OK
+511862,Verificar grupo "disk",b'0',b'0',OK
+511862,Verificar archivo /etc/hosts.equiv,b'0',b'0',OK
+511862,Verificar interfaces PPP,b'0',b'0',OK
+511862,Verificar variable PATH,b'0',b'0',OK
+511862,Tiempo de inactividad,b'0',b'Noexistevariabletmouten/etc/profileo/etc/csh.cshrc',ERR
+511862,Verificar logins,b'0',b'0',OK
+511862,Verificar si se esta en modo grafico,b'0',b'Elequiposeencuentraenmodografico',ERR
+511862,Verificar montajes NFS,b'0',b'Not found',ERR
+511862,Verificar montajes Home,b'0',b'0',OK
+511862,Verificar dispositivos de almacenamiento USB,b'0',b'DispositivosdealmacenamientoUSBpermitidos',ERR
+511862,Verificar servidor NFS,b'0',b'0',OK
+511862,Asegurar servidor de impresion,b'0',b'Permisosdearchivocupsd.confincorrecto',ERR
+511862,Verificar archivo .rhosts,b'0',b'0',OK
+511862,Verificar IPv6,b'0',b'IPv6habilitado:inet6::1/128scopehostinet6fe80::a822:805e:ca22:2776/64scopelinknoprefixroute',ERR
