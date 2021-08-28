@@ -1,0 +1,38 @@
+Reporte,Control,Resultado Esperado,Resultado Obtenido,Status
+291517,Chequear usuario root,b'1',b'1',OK
+291517,Chequear permisos acceso root local,b'2',b'2',OK
+291517,Chequear permisos acceso root remoto,b'1',b'',ERR
+291517,Cuentas con ID menor a 500  no deben realizar login interactivo,b'0',b'0',OK
+291517,Cuentas del sistema no deben poder realizar login interactivo,b'0',b'0',OK
+291517,Cuentas NO deben tener UID duplicados,b'0',b'0',OK
+291517,Verificar grupos del sistema (/etc/group),b'0',b'0',OK
+291517,Bloquear  cuentas luego de determinados intentos,b'0',b'',ERR
+291517,Verificar existencia de archivo .forward,b'1',b'1',OK
+291517,Verificar encriptacion de passwords,b'0',b'0',OK
+291517,Verificar presencia del comando xhost,b'0',b'find /home/alejandro/ -maxdepth 1 -mindepth 1 -type f -exec grep -qi xhost + {} ;',ERR
+291517,Verificar presencia de ! en archivo .exrc,b'123',b'123',OK
+291517,Verificar grupo "disk",b'0',b'0',OK
+291517,Verificar archivo /etc/hosts.equiv,b'0',b'0',OK
+291517,Verificar interfaces PPP,b'0',b'0',OK
+291517,Verificar variable PATH,b'0',b'0',OK
+291517,Tiempo de inactividad,b'0',b'No existe variable tmout en /etc/profile o /etc/csh.cshrc',ERR
+291517,Verificar logins,b'0',b'0',OK
+291517,Verificar si se esta en modo grafico,b'0',b'El equipo se encuentra en modo grafico',ERR
+291517,Verificar montajes NFS,b'0',b'',ERR
+291517,Verificar montajes Home,b'0',b'0',OK
+291517,Verificar dispositivos de almacenamiento USB,b'0',b'Dispositivos de almacenamiento USB permitidos',ERR
+291517,Verificar servidor NFS,b'0',b'0',OK
+291517,Asegurar servidor de impresion,b'0',b'Permisos de archivo cupsd.conf incorrecto',ERR
+291517,Verificar archivo .rhosts,b'0',b'0',OK
+291517,Verificar IPv6,b'0',b'IPv6 habilitado: inet6 ::1/128 scope host inet6 fe80::a822:805e:ca22:2776/64 scope link noprefixroute',ERR
+291517,Registros de acceso,b'0',b'Permisos de archivo /var/log/auth.log incorrectos',ERR
+291517,Recepcion de Logs,b'0',b'0',OK
+291517,Verificar montajes filesystems de usuario,b'0',b'0',OK
+291517,Proteger grub con contraseña,b'0',b'Grub no esta protegido con contrase\xc3\xb1a',ERR
+291517,Verificar directorio lost+found,b'0',b'0',OK
+291517,Verificar formato del archivo /etc/passwd,b'0',b'0',OK
+291517,Verificar entradas legacy,b'0',b'0',OK
+291517,Login shell, PATH completo,b'0',b'0',OK
+291517,Existencia de archivo profile,b'0',b'0',OK
+291517,Dueños de archivos y directorios,b'0',b'Se encontraron archivos o directorios sin due\xc3\xb1o',ERR
+291517,Logs de usuarios activos,b'0',b'Permisos de archivo /var/log/wtmp no son 600 - Permisos de archivo /var/run/utmp no son 600',ERR

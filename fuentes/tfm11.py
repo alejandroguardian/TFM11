@@ -35,7 +35,7 @@ def main():
         param = sys.argv[1]
         if param == "a":
             #agendarAnalisis()
-            print("Agenda")
+            print("Agenda - No disponible")
         elif param == "e":
             a.ejecutarAnalisis()
         elif param == "r":
